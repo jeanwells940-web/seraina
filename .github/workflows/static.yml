@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -163,7 +162,7 @@
       <button onclick="verifySiteUnlock()" class="w-full py-3.5 rounded-2xl text-white font-black text-sm shadow-lg transition transform active:scale-95" style="background: var(--gradient-hero);">
         فتح عالمنا الخاص ✨
       </button>
-      <p class="text-[11px] opacity-60"ّّ>:الرمز السري من عشر ارقام</p>
+      <p class="text-[11px] opacity-60">الرمز السري: من عشر أرقام</p>
     </div>
   </div>
   
@@ -1027,15 +1026,17 @@
     });
     /* ============================================================================
        1. تهيئة الاتصال السحابي عبر Firebase Firestore (باقة Spark بدون Storage)
-  const firebaseConfig = {
-  apiKey: "AIzaSyCACWWNvUQnbdbm0nokHEZ_eZBx1GntLp4",
-  authDomain: "seraina-8719d.firebaseapp.com",
-  projectId: "seraina-8719d",
-  storageBucket: "seraina-8719d.firebasestorage.app",
-  messagingSenderId: "429456399324",
-  appId: "1:429456399324:web:408bccd18300af7cf84d19",
-  measurementId: "G-W39DS5S3LM"
-};
+       ============================================================================ */
+    const firebaseConfig = {
+      apiKey: "AIzaSyD4-JlIP0fcfKVZSHIA1sIhzGLZEQQxvU8",
+      authDomain: "serania-6b5c4.firebaseapp.com",
+      projectId: "serania-6b5c4",
+      storageBucket: "serania-6b5c4.firebasestorage.app",
+      messagingSenderId: "989117383409",
+      appId: "1:989117383409:web:cdd0ae19963b9a33e75f50",
+      measurementId: "G-V2FCK0ZRDE"
+    };
+
     let db = null;
     try {
       if (window.firebase && !firebase.apps.length) {
